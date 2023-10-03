@@ -1,16 +1,48 @@
-body{
-    background-color: red;
+body {
+    background-color: #C8D9BF;
 }
-table{
+
+
+table {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
 }
-.heading{
+.title{
+    color:black;
+    font-size: 30px;
     text-align: center;
-    margin-top: 5%;
-    font-size: 50px;
-    color:whitesmoke;
+    margin-top:10%;
+    text-shadow: 1px 1px 2px;
+}
+td {
+    width: 100px; /* Set a fixed width for table cells */
+    height: 100px; /* Set a fixed height for table cells */
+    text-align: center; /* Center text inside cells */
+    font-size: 24px; /* Adjust font size for better appearance */
+}
+
+
+
+.score {
+    float:right;
+    margin-right:16%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.userinfo {
+    margin-left:20%;
+    font-size: 20px;
+  
+}
+
+button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
 }
