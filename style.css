@@ -46,3 +46,29 @@ button{
     transform: translate(-50%, -50%);
     background-color: white;
 }
+@media (max-width: 768px) {
+    .score {
+        font-size: 16px; /* Adjust font size for mobile */
+        margin-top: 10px; /* Adjust margin-top for mobile */
+    }
+
+    .userinfo {
+        font-size: 16px; /* Adjust font size for mobile */
+        margin-top: 10px; /* Adjust margin-top for mobile */
+    }
+
+    table {
+        width: 80%; /* Adjust table width for mobile */
+        max-width: 250px; /* Adjust maximum width for mobile */
+    }
+
+    td {
+        width: 33.33%; /* Keep cell width consistent */
+        height: 80px; /* Adjust cell height for mobile */
+        font-size: 18px; /* Adjust font size for mobile */
+    }
+
+    button {
+        max-width: 150px; /* Adjust button width for mobile */
+    }
+}
