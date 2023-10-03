@@ -1,13 +1,13 @@
 body {
-    background-color: #C8D9BF;
+    background-color: #C8D9BF; 
 }
 
 
-table {
+ table {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
     background-color: white;
 }
 .title{
@@ -18,10 +18,10 @@ table {
     text-shadow: 1px 1px 2px;
 }
 td {
-    width: 100px; /* Set a fixed width for table cells */
-    height: 100px; /* Set a fixed height for table cells */
-    text-align: center; /* Center text inside cells */
-    font-size: 24px; /* Adjust font size for better appearance */
+    width: 100px; 
+    height: 100px;
+    text-align: center; 
+    font-size: 24px; 
 }
 
 
@@ -48,29 +48,29 @@ button{
 }
 @media (max-width: 768px) {
     .score {
-        font-size: 16px; /* Adjust font size for mobile */
-        margin-top: 10px; /* Adjust margin-top for mobile */
+        font-size: 16px; 
+        margin-top: 10px; 
     }
 
     .userinfo {
-        font-size: 16px; /* Adjust font size for mobile */
-        margin-top: 10px; /* Adjust margin-top for mobile */
+        font-size: 16px; 
+        margin-top: 10px;
     }
 
     table {
-        width: 80%; /* Adjust table width for mobile */
-        max-width: 250px; /* Adjust maximum width for mobile */
+        width: 80%; 
+        max-width: 250px; 
         top:60%;
     }
 
     td {
-        width: 33.33%; /* Keep cell width consistent */
-        height: 50px; /* Adjust cell height for mobile */
-        font-size: 18px; /* Adjust font size for mobile */
+        width: 33.33%; 
+        height: 50px; 
+        font-size: 18px; 
     }
 
     button {
-        max-width: 150px; /* Adjust button width for mobile */
+        max-width: 150px;
         top:90%;
     }
 }
