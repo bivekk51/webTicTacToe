@@ -22,7 +22,7 @@ function makeMove(row, col) {
       setTimeout(function () {
         checkWinner();
     }, 100);
-    currentPlayer = currentPlayer === "X" ? "O" : "X"; // Switch players
+    currentPlayer = currentPlayer === "X" ? "O" : "X"; 
   }
 }
 
@@ -34,7 +34,7 @@ function updateScoreboard(){
     
 }
 function checkWinner() {
-  // Check rows, columns, and diagonals for a win
+  
   for (let i = 0; i < 3; i++) {
     if (
       board[i][0] !== "" &&
@@ -80,7 +80,7 @@ function checkWinner() {
     return;
   }
 }
-  // Check for a draw
+  
   if (!board.flat().includes("")) {
     winner=0;
     displayWinner();
@@ -125,8 +125,8 @@ function resetBoard() {
     ["", "", ""],
   ];
 
-  // Clear the table
+  
   const cells = document.querySelectorAll("td");
   cells.forEach((cell) => (cell.innerHTML = ""));
-  currentPlayer = "X"; // X starts again
+  currentPlayer = "X"; 
 }
