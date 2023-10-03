@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="title">TicTacToe</div><br> <!---wrapped every components in div-->
+    <div class="title">TicTacToe</div><br> 
     <div class="userinfo">
         Player 1= <b>X</b><br><br> 
         Player 2= <b>O</b></div>
@@ -15,12 +15,12 @@
        <b> Score:</b><br><br>
     <div id="scoreboard">
         
-        Player 1 = 0 | Player 2= 0 | Draw=0 <!--Created a Scoreboard to update the winnings-->
+        Player 1 = 0 | Player 2= 0 | Draw=0
     </div>
     </div>
-    <table border="1" width="300px" height="300px" id="ticTacToe"> <!--Using a 3*3 Table to create the grid for tictactoe-->
+    <table border="1" width="300px" height="300px" id="ticTacToe">
         <tr>
-            <td onclick="makeMove(0, 0)"></td> <!--as user clicks on a grid , the required input(X,O) will be filled-->
+            <td onclick="makeMove(0, 0)"></td> 
             <td onclick="makeMove(0, 1)"></td>
             <td onclick="makeMove(0, 2)"></td>
         </tr>
@@ -36,7 +36,7 @@
         </tr>
     </table>
     <div class="resetbutton">
-        <button onclick="resetGame()">Reset Game</button><!-- The grid as well as the score will get resetted-->
+        <button onclick="resetGame()">Reset Game</button>
     </div>
     <script src="script.js"></script>
 </body>
