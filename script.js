@@ -11,7 +11,7 @@ let board = [
 ];
 welcomeIn();
 function welcomeIn(){
-  alert("Welcome to TicTacToe");
+  alert("Welcome to TicTacToe <br>  Player 1 starts");
 }
 
 function makeMove(row, col) {
